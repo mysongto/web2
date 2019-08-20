@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - JavaScript</title>
+  <meta charset="utf-8">
+ <!-- 이게 css인데 클래스가 js인것들 다 바꾼다. 이게 태그를 이용한 방법이다.-->
+  <style>
+    .js{
+      font-weight: bold;
+      color:red;
+    }
+
+    #first {
+      color:green;
+    }
+
+    span {
+      color:blue;
+    }
+
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+
+  <h2 style="">JavaScript</h2>
+  <!--div를 쓰면 무색무취의 태그이지만 줄바꿈이 됨 줄 바꿈이 되지 않는 같은 태그가 span임
+javascript라는 모든 단어를 바꾸고 싶으면 헤더에 style 추가 한다. 꼭 헤드 테그가 아니어도 된다.
+<span style="font-weight:bold;">JavaScript</span> 이렇게 하면 모든걸 수정하기 힘들다.-->
+
+<!-- id는 샵이다. id의 영향을 받는 이유는 클래스는 무언가를 그룹핑하는 것이고 id는 어떤 한가지를 식별 하는 것이다.
+ 클래스가 더 포괄 적인것이다. 예외적인 태그가 id 선택자를 이용하여 디자인을 바꾼다. 클래스 위에 아이디를 얻는다.
+-->
+
+<!-- 앞에 아무것도 안 붙이고 span이라고 하면 이 웹페이지에 있는 모든 span 태그를 말함.-->
+
+<!-- 아이디 선택자가 우선순위가 제일 높고 그 다음 클래스 그 다음 태그 선택자가 높다.-->
+  <p>
+    <span id ="first" class="js">JavaScript</span>(/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS,
+    is a high-level, dynamic, weakly typed, prototype-based, multi-paradigm, and interpreted
+    programming language. Alongside <span>HTML</span> and <span>CSS</span>, <span class="js">JavaScript</span> is one of the three core technologies
+    of World Wide Web content production. It is used to make webpages interactive and provide online
+    programs, including video games. The majority of websites employ it, and all modern web browsers
+    support it without the need for plug-ins by means of a built-in <span class="js">JavaScript</span> engine.
+    Each of the many <span class="js">JavaScript</span> engines represent a different implementation of <span class="js">JavaScript</span>,
+    all based on the ECMAScript specification, with some engines not supporting the spec fully,
+    and with many engines supporting additional features beyond ECMA.
+  </p>
+</body>
+</html>

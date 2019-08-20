@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>HTML</h1>
+    1+1 <br>
+    <h1>JavaScript</h1> <br>
+    <script>
+      document.write(1+1);
+    </script>
+    <br>
+    그냥 버튼 누르면 알림이 뜸 <br>
+     <input type="button" value="hi" onclick="alert('hi')"> <br>
+     내용이 변하면 알림이 뜸 <br>
+     <input type="text" name="" value="" onchange="alert('changed')"> <br>
+     키를 누르면 알림이 뜸 <br>
+     <input type="text" name="" value="" onkeydown="alert('key down')"><br>
+     라디오 버튼을 이용한 색 바꾸기 <br>
+     <script type="text/javascript">
+    function change(color)
+    {
+        document.body.style.background=color;
+    }
+</script>
+   <input type="radio" name="color" onclick="change('white')">흰색 <br>
+   <input type="radio" name="color" onclick="change('red')">빨간색 <br>
+   <input type="radio" name="color" onclick="change('yellow')">노란색 <br>
+   <input type="radio" name="color" onclick="change('blue')">파란색 <br>
+   <input type="radio" name="color" onclick="change('green')">초록색 <br>
+
+
+  </body>
+</html>
